@@ -1,12 +1,16 @@
 # JPA 
 
-Implementação com Eclipse Link
+Implementação com Hibernate Provider
 
 
-Configuração eclipselink.ddl-generation:
+Configuração hibernate.hbm2ddl.auto:
 
-	create-tables
-	create-or-extend-tables
-	drop-and-create-tables
+	create
+	update
+	create-drop
+	validate
 	none
+	
+	
+	
 	

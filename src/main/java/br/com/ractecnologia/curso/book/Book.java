@@ -4,6 +4,7 @@ import javax.persistence.*;
 
 
 @Entity
+@Table(name="book")
 @NamedQuery(name = "findAllBooks", query = "SELECT b FROM Book b")
 public class Book {
 
